@@ -1,0 +1,83 @@
+body {
+    font-family: 'CursedTimerUlil', sans-serif;
+    margin: 0;
+    background-color: #1B244A;
+    color: #EEEEEE;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   width: 500px;
+}
+
+@font-face {
+  font-family: 'CursedTimerUlil';
+  src: url('/CursedTimerUlil-Aznm.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+p {
+  color: #F94F6D;
+  font-size: 90px;
+  width: 117px;
+  height: 90px;
+}
+
+h3 {
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 25px;
+    font-size: 40px;
+    width: 149px;
+    height: 36px;
+   
+}
+
+#black {
+    margin-bottom: 25px; 
+    width: 155px;
+    height: 120px;
+    background-color: #080001;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    font-family: 'CursedTimerUlil', sans-serif;
+    font-size: 18px;
+    width: 45px;
+    height: 45px;
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 6px;
+}
+
+#game-btn-wrap {
+    margin-top: 25px;
+    text-align: center;
+    width: 100%;
+}
+
+#game-btn {
+    width: 125px;
+    background-color: #080001;
+    color: #9F1239; 
+    border: 0;
+    padding-top: 7px;
+}
+
+#homeh3 {
+    color: #7DD3FC;
+    text-shadow: 0 0 5px black;
+}
+
+#guesth3 {
+    color: #FEF3C7;
+       text-shadow: 0 0 5px black;
+}
